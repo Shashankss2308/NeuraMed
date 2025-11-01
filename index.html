@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuraMed - Your Mental Wellness Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span class="logo-text">NeuraMed</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#wellness-hub" class="nav-link">Wellness Hub</a>
+                    <a href="#garden-game" class="nav-link">Garden Game</a>
+                    <a href="#ai-chat" class="nav-link">AI Chat</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Your Mental Health,<br>
+                    <span class="gradient-text">Our Priority</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Connect with professionals, join supportive communities, and assess your mental wellness in a safe, anonymous environment designed for your wellbeing.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary btn-large">
+                        Start Your Journey <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-outline btn-large">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">Comprehensive Mental Health Services</h2>
+                <p class="section-subtitle">
+                    Our platform offers three core services designed to support your mental health journey through professional guidance, peer support, and self-assessment.
+                </p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>1v1 Professional Chat</h3>
+                        <p>Connect with licensed therapists and counselors for personalized support and guidance.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Licensed professionals</li>
+                            <li><i class="fas fa-check"></i> Secure messaging</li>
+                            <li><i class="fas fa-check"></i> Flexible scheduling</li>
+                            <li><i class="fas fa-check"></i> Personalized care</li>
+                        </ul>
+                        <button class="btn-secondary">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Anonymous Group Chats</h3>
+                        <p>Join supportive communities where you can share experiences and find understanding.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Complete anonymity</li>
+                            <li><i class="fas fa-check"></i> Moderated discussions</li>
+                            <li><i class="fas fa-check"></i> 24/7 availability</li>
+                            <li><i class="fas fa-check"></i> Peer support</li>
+                        </ul>
+                        <button class="btn-secondary">Learn More</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3>Mental Health Assessment</h3>
+                        <p>Take our comprehensive 10-question assessment to understand your mental wellness.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Evidence-based questions</li>
+                            <li><i class="fas fa-check"></i> Instant results</li>
+                            <li><i class="fas fa-check"></i> Personalized insights</li>
+                            <li><i class="fas fa-check"></i> Track progress</li>
+                        </ul>
+                        <button class="btn-secondary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Secure & Private</h3>
+                        <p>End-to-end encryption ensures your conversations remain private</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>24/7 Availability</h3>
+                        <p>Access support whenever you need it, day or night</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Licensed Professionals</h3>
+                        <p>All our therapists are certified and experienced</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wellness Hub Section -->
+        <section class="wellness-hub" id="wellness-hub">
+            <div class="container">
+                <h2 class="section-title">Your Personal Wellness Hub</h2>
+                <p class="section-subtitle">
+                    Track your mental health journey with comprehensive tools designed to support your daily wellness routine.
+                </p>
+                
+                <!-- Wellness Hub Tabs -->
+                <div class="wellness-tabs">
+                    <div class="tab-navigation">
+                        <button class="tab-btn active" data-tab="mood-tracking">
+                            <i class="fas fa-heart"></i>
+                            Mood Tracking
+                        </button>
+                        <button class="tab-btn" data-tab="journaling">
+                            <i class="fas fa-book"></i>
+                            Journaling
+                        </button>
+                        <button class="tab-btn" data-tab="habits">
+                            <i class="fas fa-target"></i>
+                            Habits
+                        </button>
+                        <button class="tab-btn" data-tab="mindfulness">
+                            <i class="fas fa-om"></i>
+                            Mindfulness
+                        </button>
+                    </div>
+                    
+                    <!-- Mood Tracking Tab -->
+                    <div class="tab-content active" id="mood-tracking">
+                        <div class="wellness-cards">
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-heart"></i>
+                                    <h3>Today's Mood Check-in</h3>
+                                </div>
+                                <div class="mood-emoji">😊</div>
+                                <p class="mood-question">How are you feeling today?</p>
+                                <div class="mood-slider-container">
+                                    <div class="mood-slider">
+                                        <span class="mood-label">😢</span>
+                                        <input type="range" id="moodSlider" min="1" max="10" value="7" class="slider">
+                                        <span class="mood-label">😄</span>
+                                    </div>
+                                    <div class="mood-numbers">
+                                        <span>1</span>
+                                        <span>5</span>
+                                        <span>10</span>
+                                    </div>
+                                </div>
+                                <div class="current-mood">Current: <span id="currentMoodValue">7</span>/10</div>
+                                <button class="btn-primary" onclick="saveMoodEntry()">Save Mood Entry</button>
+                            </div>
+                            
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h3>Mood Insights</h3>
+                                </div>
+                                <div class="mood-streak">
+                                    <div class="streak-number">12</div>
+                                    <div class="streak-label">Day streak</div>
+                                </div>
+                                <div class="mood-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">Weekly average</span>
+                                        <span class="stat-value">7.2/10</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Best day</span>
+                                        <span class="stat-value">Monday</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Total entries</span>
+                                        <span class="stat-value">45</span>
+                                    </div>
+                                </div>
+                                <div class="mood-badge">
+                                    <i class="fas fa-brain"></i>
+                                    Mood Tracker Badge
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Journaling Tab -->
+                    <div class="tab-content" id="journaling">
+                        <div class="wellness-cards">
+                            <div class="wellness-card journal-card">
+                                <div class="card-header">
+                                    <i class="fas fa-calendar"></i>
+                                    <h3>Daily Journal</h3>
+                                </div>
+                                <textarea class="journal-textarea" placeholder="What's on your mind today? Write about your thoughts, feelings, or experiences..."></textarea>
+                                <div class="journal-tags">
+                                    <button class="tag-btn" data-tag="gratitude">Gratitude</button>
+                                    <button class="tag-btn" data-tag="reflection">Reflection</button>
+                                    <button class="tag-btn" data-tag="goals">Goals</button>
+                                </div>
+                                <button class="btn-primary" onclick="saveJournalEntry()">Save Entry</button>
+                            </div>
+                            
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <h3>Journal Stats</h3>
+                                </div>
+                                <div class="journal-streak">
+                                    <div class="streak-number">28</div>
+                                    <div class="streak-label">Total entries</div>
+                                </div>
+                                <div class="journal-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">This week</span>
+                                        <span class="stat-value">5 entries</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Longest streak</span>
+                                        <span class="stat-value">12 days</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Average words</span>
+                                        <span class="stat-value">124</span>
+                                    </div>
+                                </div>
+                                <div class="recent-prompts">
+                                    <h4>Recent Prompts</h4>
+                                    <ul>
+                                        <li>What made you smile today?</li>
+                                        <li>Describe a challenge you overcame</li>
+                                        <li>What are you grateful for?</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Habits Tab -->
+                    <div class="tab-content" id="habits">
+                        <div class="wellness-cards">
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-target"></i>
+                                    <h3>Daily Habits</h3>
+                                </div>
+                                <div class="habits-list">
+                                    <div class="habit-item">
+                                        <label class="habit-checkbox">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            Morning meditation
+                                        </label>
+                                        <span class="habit-streak">7</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <label class="habit-checkbox">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            Gratitude practice
+                                        </label>
+                                        <span class="habit-streak">12</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <label class="habit-checkbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Exercise
+                                        </label>
+                                        <span class="habit-streak">3</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <label class="habit-checkbox">
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                            Read for 30 min
+                                        </label>
+                                        <span class="habit-streak">5</span>
+                                    </div>
+                                </div>
+                                <button class="btn-secondary" onclick="addNewHabit()">Add New Habit</button>
+                            </div>
+                            
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-pie"></i>
+                                    <h3>Weekly Progress</h3>
+                                </div>
+                                <div class="completion-rate">
+                                    <span class="rate-label">Completion Rate</span>
+                                    <span class="rate-value">78%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 78%"></div>
+                                </div>
+                                <div class="weekly-days">
+                                    <div class="day-item">
+                                        <span class="day-label">S</span>
+                                        <span class="day-count">3</span>
+                                    </div>
+                                    <div class="day-item">
+                                        <span class="day-label">M</span>
+                                        <span class="day-count">3</span>
+                                    </div>
+                                    <div class="day-item">
+                                        <span class="day-label">T</span>
+                                        <span class="day-count">3</span>
+                                    </div>
+                                    <div class="day-item">
+                                        <span class="day-label">W</span>
+                                        <span class="day-count">3</span>
+                                    </div>
+                                    <div class="day-item">
+                                        <span class="day-label">T</span>
+                                        <span class="day-count">3</span>
+                                    </div>
+                                    <div class="day-item">
+                                        <span class="day-label">F</span>
+                                        <span class="day-count">0</span>
+                                    </div>
+                                    <div class="day-item">
+                                        <span class="day-label">S</span>
+                                        <span class="day-count">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-trophy"></i>
+                                    <h3>Achievements</h3>
+                                </div>
+                                <div class="main-achievement">
+                                    <i class="fas fa-trophy"></i>
+                                    <h4>Consistency Champion</h4>
+                                    <p>7-day meditation streak</p>
+                                </div>
+                                <div class="achievement-levels">
+                                    <div class="level-item">
+                                        <i class="fas fa-trophy"></i>
+                                        <span>Level 1</span>
+                                    </div>
+                                    <div class="level-item">
+                                        <i class="fas fa-bullseye"></i>
+                                        <span>Level 2</span>
+                                    </div>
+                                    <div class="level-item">
+                                        <i class="fas fa-star"></i>
+                                        <span>Level 3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mindfulness Tab -->
+                    <div class="tab-content" id="mindfulness">
+                        <div class="wellness-cards">
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-wind"></i>
+                                    <h3>Breathing Exercises</h3>
+                                </div>
+                                <div class="breathing-circle">
+                                    <button class="breathe-btn" id="breatheBtn">Breathe</button>
+                                </div>
+                                <p class="breathing-pattern">4-7-8 Breathing Pattern</p>
+                                <div class="breathing-options">
+                                    <button class="breathing-option active" data-pattern="4-7-8">4-7-8</button>
+                                    <button class="breathing-option" data-pattern="box">Box Breathing</button>
+                                    <button class="breathing-option" data-pattern="quick">Quick Calm</button>
+                                </div>
+                                <button class="btn-primary" onclick="startBreathingSession()">Start Session</button>
+                            </div>
+                            
+                            <div class="wellness-card">
+                                <div class="card-header">
+                                    <i class="fas fa-quote-left"></i>
+                                    <h3>Daily Affirmations</h3>
+                                </div>
+                                <div class="affirmation-box">
+                                    <p class="affirmation-text">I am capable of handling whatever comes my way today.</p>
+                                </div>
+                                <p class="affirmation-label">Today's Affirmation</p>
+                                <div class="affirmation-tags">
+                                    <button class="affirmation-tag">
+                                        <i class="fas fa-dumbbell"></i>
+                                        Strength
+                                    </button>
+                                    <button class="affirmation-tag">
+                                        <i class="fas fa-seedling"></i>
+                                        Growth
+                                    </button>
+                                    <button class="affirmation-tag">
+                                        <i class="fas fa-heart"></i>
+                                        Self-Love
+                                    </button>
+                                </div>
+                                <button class="btn-secondary" onclick="getNewAffirmation()">Get New Affirmation</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Feature Cards -->
+                        <div class="feature-cards">
+                            <div class="feature-card">
+                                <i class="fas fa-globe"></i>
+                                <h4>Multilingual</h4>
+                                <p>Available in 12 languages</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-microphone"></i>
+                                <h4>Voice Support</h4>
+                                <p>Speak instead of type</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-moon"></i>
+                                <h4>Dark Mode</h4>
+                                <p>Easy on the eyes</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-sun"></i>
+                                <h4>Focus Mode</h4>
+                                <p>Distraction-free experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Garden Game Section -->
+        <section class="garden-game" id="garden-game">
+            <div class="container">
+                <h2 class="section-title">Wellness Garden Game</h2>
+                <p class="section-subtitle">
+                    Grow your mental wellness garden by completing daily activities. Watch your plants flourish as you build healthy habits!
+                </p>
+                
+                <div class="garden-content">
+                    <div class="garden-left">
+                        <div class="progress-stats">
+                            <div class="card-header">
+                                <i class="fas fa-star"></i>
+                                <h3>Your Progress</h3>
+                            </div>
+                            <div class="progress-metrics">
+                                <div class="metric-item">
+                                    <div class="metric-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="metric-info">
+                                        <span class="metric-label">Wellness Points</span>
+                                        <span class="metric-value" id="wellnessPoints">0</span>
+                                    </div>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-icon">
+                                        <i class="fas fa-fire"></i>
+                                    </div>
+                                    <div class="metric-info">
+                                        <span class="metric-label">Streak Days</span>
+                                        <span class="metric-value" id="streakDays">0</span>
+                                    </div>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-icon">
+                                        <i class="fas fa-seedling"></i>
+                                    </div>
+                                    <div class="metric-info">
+                                        <span class="metric-label">Plants Grown</span>
+                                        <span class="metric-value" id="plantsGrown">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="garden-center">
+                        <div class="garden-grid">
+                            <div class="card-header">
+                                <i class="fas fa-seedling"></i>
+                                <h3>Your Garden</h3>
+                            </div>
+                            <div class="plant-grid">
+                                <div class="plant-plot empty" data-plot="1">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="2">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="3">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="4">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="5">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="6">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="7">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="8">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="9">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="10">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="11">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="plant-plot empty" data-plot="12">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                            </div>
+                            <p class="garden-instruction">
+                                Click on plants to water them and help them grow! <i class="fas fa-tint"></i>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="garden-right">
+                        <div class="daily-activities">
+                            <div class="card-header">
+                                <i class="fas fa-bolt"></i>
+                                <h3>Daily Activities</h3>
+                            </div>
+                            <div class="activity-list">
+                                <div class="activity-item" data-activity="mood" data-points="10">
+                                    <i class="fas fa-smile"></i>
+                                    <span>Mood Check-in</span>
+                                    <div class="points">+10</div>
+                                </div>
+                                <div class="activity-item" data-activity="journaling" data-points="15">
+                                    <i class="fas fa-book"></i>
+                                    <span>Journaling</span>
+                                    <div class="points">+15</div>
+                                </div>
+                                <div class="activity-item" data-activity="meditation" data-points="20">
+                                    <i class="fas fa-om"></i>
+                                    <span>Meditation</span>
+                                    <div class="points">+20</div>
+                                </div>
+                                <div class="activity-item" data-activity="exercise" data-points="25">
+                                    <i class="fas fa-running"></i>
+                                    <span>Exercise</span>
+                                    <div class="points">+25</div>
+                                </div>
+                                <div class="activity-item" data-activity="gratitude" data-points="15">
+                                    <i class="fas fa-hands-praying"></i>
+                                    <span>Gratitude Practice</span>
+                                    <div class="points">+15</div>
+                                </div>
+                                <div class="activity-item" data-activity="sleep" data-points="10">
+                                    <i class="fas fa-moon"></i>
+                                    <span>Sleep Tracking</span>
+                                    <div class="points">+10</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Achievements Section -->
+                <div class="achievements-section">
+                    <div class="card-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Achievements</h3>
+                    </div>
+                    <div class="achievements-grid">
+                        <div class="achievement-card locked" data-achievement="green-thumb">
+                            <div class="achievement-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>Green Thumb</h4>
+                                <p>Plant your first wellness seed.</p>
+                                <div class="achievement-progress">
+                                    <span class="progress-text">0/1</span>
+                                    <button class="lock-btn" disabled>Locked</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="achievement-card locked" data-achievement="garden-master">
+                            <div class="achievement-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>Garden Master</h4>
+                                <p>Grow 5 plants to full maturity.</p>
+                                <div class="achievement-progress">
+                                    <span class="progress-text">0/5</span>
+                                    <button class="lock-btn" disabled>Locked</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="achievement-card locked" data-achievement="streak-warrior">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>Streak Warrior</h4>
+                                <p>Maintain a 7-day wellness streak.</p>
+                                <div class="achievement-progress">
+                                    <span class="progress-text">0/7</span>
+                                    <button class="lock-btn" disabled>Locked</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Chat Section -->
+        <section class="ai-chat" id="ai-chat">
+            <div class="container">
+                <h2 class="section-title">Meet Yuvaa - Your AI Wellness Companion</h2>
+                <p class="section-subtitle">
+                    Chat with Yuvaa to get personalized support, connect with peers who understand your journey, and find professional help when you need it most.
+                </p>
+                
+                <div class="chat-interface">
+                    <div class="chat-header">
+                        <div class="chat-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="chat-info">
+                            <h3>Chat with Yuvaa</h3>
+                            <p>Start by saying "hi" to begin your mental wellness journey</p>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message yuvaa-message">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <div class="message-header">
+                                    <span class="username">Yuvaa</span>
+                                </div>
+                                <div class="message-text">Your Mental Wellness Companion</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <input type="text" id="messageInput" placeholder="Type your message...">
+                        <button class="send-btn" onclick="sendMessage()">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Community Says</h2>
+                <p class="section-subtitle">
+                    Real stories from real people who have found support, healing, and growth through our platform.
+                </p>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The 1v1 chat feature has been life-changing. Having access to a professional therapist when I need it most has helped me manage my anxiety so much better."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SM</div>
+                            <div class="author-info">
+                                <h4>Sarah M.</h4>
+                                <span>Working Professional</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The anonymous group chats made me realize I wasn't alone. Connecting with others who understand what I'm going through has been incredibly healing."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MR</div>
+                            <div class="author-info">
+                                <h4>Michael R.</h4>
+                                <span>College Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The mental health assessment helped me understand my stress levels better. The insights I received guided me to seek the right kind of support."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JL</div>
+                            <div class="author-info">
+                                <h4>Jennifer L.</h4>
+                                <span>Healthcare Worker</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "As someone who struggles with asking for help, the anonymous features made it so much easier to open up and get the support I needed."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">DK</div>
+                            <div class="author-info">
+                                <h4>David K.</h4>
+                                <span>Entrepreneur</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About NeuraMate</h2>
+                <p class="section-subtitle">
+                    We're dedicated to making mental health support accessible, private, and effective for everyone. Our platform combines professional expertise with peer support and self-assessment tools to create a comprehensive mental wellness ecosystem.
+                </p>
+                
+                <div class="about-content">
+                    <div class="about-left">
+                        <div class="mission">
+                            <h3>Our Mission</h3>
+                            <p>
+                                To break down barriers to mental health care by providing accessible, anonymous, and professional support through innovative digital solutions.
+                            </p>
+                            <p>
+                                We understand that seeking help can be challenging, which is why we've created a platform that prioritizes your privacy, comfort, and individual needs.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-right">
+                        <div class="stats-cards">
+                            <div class="stat-card">
+                                <div class="stat-number">10K+</div>
+                                <div class="stat-label">Active Users</div>
+                                <div class="stat-description">Finding support daily</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Licensed Professionals</div>
+                                <div class="stat-description">Ready to help</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Available Support</div>
+                                <div class="stat-description">Whenever you need it</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="values">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Compassionate Care</h4>
+                        <p>We believe everyone deserves access to mental health support with empathy and understanding.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Evidence-Based</h4>
+                        <p>Our approach is grounded in proven therapeutic methods and research-backed techniques.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Community Support</h4>
+                        <p>We foster safe spaces where individuals can connect and support one another's journey.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Innovation</h4>
+                        <p>We continuously improve our platform to provide the best possible mental health experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">
+                    Find answers to common questions about our mental health platform and services.
+                </p>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Is my information completely private and secure?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we use end-to-end encryption and follow strict privacy protocols to ensure your information remains completely confidential and secure.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How do the anonymous group chats work?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our group chats are completely anonymous. You're assigned a random username and can participate in moderated discussions without revealing your identity.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Are the therapists licensed professionals?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, all our therapists are licensed mental health professionals with verified credentials and extensive experience in their field.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How much does the service cost?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer both free and premium services. Basic peer support and assessments are free, while professional therapy sessions have affordable rates.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Can I use this service in crisis situations?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>While we provide support, we're not a crisis service. In emergency situations, please contact your local emergency services or crisis hotline.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How does the mental health assessment work?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our assessment uses evidence-based questions to evaluate your mental wellness and provides personalized insights and recommendations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Can I switch between different therapists?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, you can request to work with a different therapist if you feel the current match isn't the right fit for your needs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Is the service available 24/7?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Group chats and some support features are available 24/7. Professional therapist availability varies, but we have therapists across different time zones to provide coverage throughout most hours. Emergency support resources are always accessible.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-footer">
+                    <p>Still have questions? We're here to help.</p>
+                    <a href="#contact" class="contact-link">Contact our support team <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">
+                    Have questions about our services? Need support getting started? We're here to help you on your mental wellness journey.
+                </p>
+                
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <h3>Send us a message</h3>
+                        <form>
+                            <div class="form-row">
+                                <input type="text" placeholder="Enter your first name" required>
+                                <input type="text" placeholder="Enter your last name" required>
+                            </div>
+                            <input type="email" placeholder="Enter your email address" required>
+                            <input type="text" placeholder="What can we help you with?">
+                            <textarea placeholder="Tell us more about your inquiry..." rows="5"></textarea>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                            <p class="form-note">We typically respond within 24 hours during business days.</p>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="info-section">
+                            <h3>Contact Information</h3>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>support@neuramate.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>1-800-NEURAMATE</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <div>123 Wellness Street</div>
+                                    <div>Mental Health District</div>
+                                    <div>City, State 12345</div>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <div>Monday - Friday: 9:00 AM - 6:00 PM</div>
+                                    <div>Saturday: 10:00 AM - 4:00 PM</div>
+                                    <div>Sunday: Closed</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="emergency-section">
+                            <h3>Emergency Support</h3>
+                            <p>If you're experiencing a mental health crisis, please reach out for immediate help:</p>
+                            <div class="emergency-links">
+                                <a href="tel:988" class="emergency-link">National Suicide Prevention Lifeline: 988</a>
+                                <a href="sms:741741" class="emergency-link">Crisis Text Line: Text HOME to 741741</a>
+                                <a href="tel:911" class="emergency-link">Emergency Services: 911</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <span class="logo-text">NeuraMate</span>
+                        </div>
+                        <p>Building a supportive community where everyone belongs.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Professional Chat</a></li>
+                            <li><a href="#services">Group Support</a></li>
+                            <li><a href="#services">Mental Health Assessment</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#wellness-hub">Wellness Hub</a></li>
+                            <li><a href="#garden-game">Garden Game</a></li>
+                            <li><a href="#ai-chat">AI Chat</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#contact">Emergency Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 NeuraMate. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
